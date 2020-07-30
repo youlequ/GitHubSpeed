@@ -1,0 +1,19 @@
+//about
+import fonts.fontAwesome;
+import win.ui;
+/*DSG{{*/
+var winform = win.form(cls="mfc";text="关于";right=425;bottom=317;bgcolor=16777215;border="none";exmode="toolwindow";max=false;min=false;mode="popup";sysmenu=false)
+winform.add(
+bk={cls="bk";left=0;top=0;right=426;bottom=38;bgcolor=3354413;z=1};
+plus={cls="plus";text="关于";left=17;top=6;right=114;bottom=31;align="left";color=16777215;z=2};
+static={cls="static";left=68;top=67;right=352;bottom=293;transparent=1;z=3}
+)
+/*}}*/
+
+import win.ui.simpleWindow;
+win.ui.simpleWindow(winform);
+
+
+winform.show();
+win.loopMessage();
+return winform;
