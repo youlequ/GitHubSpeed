@@ -1,0 +1,11 @@
+import win.ui;
+/*DSG{{*/
+var winform = win.form(text="aardio form";right=759;bottom=469;bgcolor=16777215)
+winform.add(
+button={cls="button";text="Button";left=127;top=115;right=340;bottom=168;z=1}
+)
+/*}}*/
+
+winform.show();
+win.loopMessage();
+return winform;
